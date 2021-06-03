@@ -1,0 +1,32 @@
+<html>
+{% extends "header.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<h1>Home</h1>
+
+<head>
+    <style>
+    table, th, td {
+     border-collapse: separate;
+     border-spacing: 10px;
+    }
+    table.center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    </head>
+    <body>
+     
+    <table class="center", style="width:500px">
+       
+        <tr>
+        <tr><td><a href="/myclasses">My Classes</a></td></tr>
+        <tr><td><a href="/classes">Register for a Class</a></td></tr>
+        <tr><td><a href="/myaccount">My Account</a></td></tr>
+        <tr><td><a href="/updateaccountinformation">Update Account Information</a></td></tr>
+        </tr>
+    </table>
+
+{% endblock %}        
+</html>

@@ -1,0 +1,19 @@
+<html>
+    {% include "header.html" %}
+    <h1>Login</h1>
+    <form action="/homepage" method="POST"></form>
+       <div>
+         Username or email address
+       </div>
+       <input type="text" name="username"></input>
+       <div>
+         Password
+       </div>
+       <input type="password" name="password"></input>
+       <div>
+       <input type="submit" value="Login"></input>
+	   <input type="submit" value="Sign Up"></input>
+       </div>
+    </form>
+    {% include "footer.html" %}    
+</html>

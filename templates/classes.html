@@ -1,0 +1,110 @@
+<html>
+    {% extends "header.html" %}
+    {% block content %}
+        <head>
+        <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        table.center {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+        </head>
+        <body>
+         
+        <table class="center", style="width:500px">
+          <tr>
+            <th>Class Code</th>
+            <th>Instructor</th>
+            <th>Section</th>
+            <th>Fee</th>
+            <th>Slots Left</th>
+            <th>Class Details</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Mr. A</td>
+            <td>A</td>
+            <td>Php 1000</td>
+            <td>10</td>
+            <td><a href="/classdetails">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mr. B</td>
+            <td>B</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Mr. C</td>
+            <td>C</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Mr. D</td>
+            <td>D</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Mr. E</td>
+            <td>E</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Mr. A</td>
+            <td>F</td>
+            <td>Php 1000</td>
+            <td>10</td>
+            <td><a href="/classdetails">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Mr. B</td>
+            <td>G</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Mr. C</td>
+            <td>H</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Mr. D</td>
+            <td>I</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Mr. E</td>
+            <td>J</td>
+            <td>Php 1200</td>
+            <td>10</td>
+            <td><a href="/classone">Class Details</a></td>
+          </tr>
+        </table>
+        {% include "footer.html" %}
+    {% endblock %}
+
+</html>
